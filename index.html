@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunatic ScreenShare - Cursos Profissionais de Screenshare/Telagem</title>
+    <meta name="description" content="Aprenda Screenshare profissional com nossos cursos abrangentes. Educação baseada em consentimento para todos os níveis de habilidade.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Lunatic</span>
+                <span class="logo-highlight">ScreenShare</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#precos" class="nav-link">Preços</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="btn btn-outline">Discord</a>
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <span class="logo-text">Lunatic</span>
+                <span class="logo-highlight">ScreenShare</span>
+            </div>
+            <button class="mobile-menu-close" aria-label="Fechar menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <li><a href="#sobre" class="mobile-nav-link">Sobre</a></li>
+                <li><a href="#recursos" class="mobile-nav-link">Recursos</a></li>
+                <li><a href="#depoimentos" class="mobile-nav-link">Depoimentos</a></li>
+                <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+                <li><a href="#precos" class="mobile-nav-link">Preços</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-footer">
+            <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="btn btn-primary btn-full">Entrar no Discord</a>
+            <div class="social-links">
+                <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="social-link" aria-label="Discord">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 8.4c-.5-.2-1-.4-1.6-.5.1-.1.1-.3.1-.4.1-.3.2-.6.2-.9 0-.2-.1-.4-.2-.5-.1-.1-.3-.2-.5-.2-.3 0-.5.1-.7.3-.3-.1-.5-.1-.8-.1-.3 0-.5 0-.8.1-.2-.2-.4-.3-.7-.3-.2 0-.4.1-.5.2-.1.1-.2.3-.2.5 0 .3.1.6.2.9 0 .1.1.3.1.4-.5.1-1.1.3-1.6.5-1.8.8-2.9 2.2-2.9 3.6v1c0 2.3 2.8 4.1 6.3 4.1s6.3-1.8 6.3-4.1v-1c0-1.4-1.1-2.8-2.9-3.6zm-3 7.6c-.7 0-1.4-.1-2-.4-.6-.2-1.1-.6-1.6-1-.1-.1-.2-.2-.2-.4s.1-.3.2-.4c.1-.1.2-.1.4-.1.1 0 .3.1.4.2.3.3.7.6 1.2.8.5.2 1 .3 1.6.3.6 0 1.1-.1 1.6-.3.5-.2.9-.5 1.2-.8.1-.1.2-.2.4-.2.1 0 .3 0 .4.1.1.1.2.2.2.4s-.1.3-.2.4c-.4.4-1 .8-1.6 1-.6.3-1.3.4-2 .4z"></path>
+                    </svg>
+                </a>
+                <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="social-link" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="social-link" aria-label="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid">
+            <div class="hero-grid-item" data-speed="0.1"></div>
+            <div class="hero-grid-item" data-speed="0.2"></div>
+            <div class="hero-grid-item" data-speed="0.3"></div>
+            <div class="hero-grid-item" data-speed="0.4"></div>
+            <div class="hero-grid-item" data-speed="0.5"></div>
+            <div class="hero-grid-item" data-speed="0.6"></div>
+            <div class="hero-grid-item" data-speed="0.7"></div>
+            <div class="hero-grid-item" data-speed="0.8"></div>
+        </div>
+        <div class="container">
+            <div class="hero-badge">
+                <span>Serviço Profissional de Compartilhamento de Tela</span>
+            </div>
+            <h1 class="hero-title">
+                Domine a Arte do <span class="highlight">Compartilhamento de Tela</span>
+            </h1>
+            <p class="hero-description">
+                Cursos especializados de compartilhamento de tela com aprendizado baseado em consentimento para todos os níveis de habilidade
+            </p>
+            <div class="hero-actions">
+                <a href="#precos" class="btn btn-primary">
+                    Ver Cursos
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="btn btn-outline">Discord</a>
+            </div>
+            <div class="hero-screen">
+                <div class="screen-header">
+                    <div class="screen-dots">
+                        <span class="screen-dot red"></span>
+                        <span class="screen-dot yellow"></span>
+                        <span class="screen-dot green"></span>
+                    </div>
+                    <div class="screen-title">lunatic-screenshare.exe</div>
+                </div>
+                <div class="screen-content">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="screen-icon">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                    <div class="typing-text">Iniciando sessão de compartilhamento de tela...</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Role para baixo</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nosso Serviço</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <h3 class="about-subtitle">Cursos Profissionais de Compartilhamento de Tela</h3>
+                    <p>
+                        Nossos cursos de compartilhamento de tela são projetados para fornecer educação abrangente sobre assistência remota e solução de problemas. Todos os nossos serviços são baseados em consentimento, garantindo que ambas as partes concordem com a sessão de compartilhamento de tela.
+                    </p>
+                    <p>
+                        Seja você um profissional de TI que busca melhorar suas habilidades de suporte técnico ou alguém que deseja aprender como auxiliar outras pessoas remotamente de forma eficaz, nossos cursos fornecem o conhecimento e a prática necessários.
+                    </p>
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Material de aprendizado abrangente</span>
+                        </li>
+                        <li class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Aulas gravadas para referência</span>
+                        </li>
+                        <li class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Instrutores experientes com anos de experiência</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image animate-on-scroll">
+                    <div class="image-card">
+                        <div class="image-card-content">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="image-card-icon">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                            <h4 class="image-card-title">Demonstrações ao Vivo</h4>
+                            <p class="image-card-description">Aprenda através de sessões interativas com instrutores especializados</p>
+                        </div>
+                        <div class="image-card-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="recursos" class="section features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por Que Nos Escolher</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Baseado em Consentimento</h3>
+                    <p class="feature-card-description">
+                        Todas as nossas sessões de compartilhamento de tela são baseadas em consentimento mútuo, garantindo privacidade e segurança para todas as partes envolvidas.
+                    </p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="150">
+                    <div class="feature-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Cursos Abrangentes</h3>
+                    <p class="feature-card-description">
+                        Dos conceitos básicos às técnicas avançadas, nossos cursos cobrem tudo o que você precisa saber sobre compartilhamento de tela eficaz.
+                    </p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="300">
+                    <div class="feature-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Suporte Contínuo</h3>
+                    <p class="feature-card-description">
+                        Acesso aos nossos canais da comunidade e suporte contínuo mesmo após a conclusão dos cursos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O Que Nossos Alunos Dizem</h2>
+                <div class="section-line section-line-light"></div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <p class="testimonial-content">
+                            "O curso avançado transformou completamente minha abordagem para assistência remota. As técnicas que aprendi me tornaram muito mais eficiente no meu trabalho diário."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-avatar">
+                                <span>CS</span>
+                            </div>
+                            <div class="testimonial-author-info">
+                                <div class="testimonial-author-name">Sosastreet</div>
+                                <div class="testimonial-author-role">Telador Profissional</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <p class="testimonial-content">
+                            "Comecei com o curso básico e fiquei tão impressionada que imediatamente atualizei para o avançado. Os instrutores são conhecedores e o conteúdo é abrangente."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-avatar">
+                                <span>MC</span>
+                            </div>
+                            <div class="testimonial-author-info">
+                                <div class="testimonial-author-name">italiano</div>
+                                <div class="testimonial-author-role">Especialista em Suporte Técnico</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" class="star-outline">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <p class="testimonial-content">
+                            "As técnicas de compartilhamento de tela que aprendi economizaram inúmeras horas de solução de problemas. Altamente recomendado para qualquer pessoa em suporte de TI."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-avatar">
+                                <span>RM</span>
+                            </div>
+                            <div class="testimonial-author-info">
+                                <div class="testimonial-author-name">kronic2025</div>
+                                <div class="testimonial-author-role">Administrador de Telagem</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-nav">
+                    <button class="testimonial-nav-dot active" data-index="0"></button>
+                    <button class="testimonial-nav-dot" data-index="1"></button>
+                    <button class="testimonial-nav-dot" data-index="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="faq-container">
+                <div class="accordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>O que vou aprender no curso básico?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accordion-icon">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                O curso básico abrange técnicas fundamentais de compartilhamento de tela, métodos básicos de solução de problemas e habilidades essenciais de assistência remota. Você aprenderá como estabelecer conexões seguras e se comunicar efetivamente durante sessões de compartilhamento de tela.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Como o curso avançado é diferente?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accordion-icon">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                O curso avançado se baseia nos fundamentos e inclui técnicas abrangentes de solução de problemas, protocolos avançados de segurança e métodos especializados para diferentes cenários. Você também terá acesso a mais de 250 canais de curso e suporte prioritário.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Preciso de experiência prévia?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accordion-icon">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Não é necessária experiência prévia para o curso básico. Para o curso avançado, recomendamos ter alguma familiaridade com conceitos de compartilhamento de tela, mas não é obrigatório, pois cobrimos tudo desde o início.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Por quanto tempo tenho acesso aos materiais do curso?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accordion-icon">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Uma vez matriculado, você tem acesso vitalício a todos os materiais do curso, incluindo atualizações futuras. Isso garante que você possa revisitar o conteúdo sempre que necessário e se manter atualizado com as técnicas mais recentes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Existe uma política de reembolso?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accordion-icon">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Sim, oferecemos uma garantia de devolução do dinheiro em 14 dias se você não estiver satisfeito com o curso. Basta entrar em contato com nossa equipe de suporte dentro de 14 dias após a compra para solicitar um reembolso.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section (Moved to the end) -->
+    <section id="precos" class="section pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preços dos Cursos</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-card-header">
+                        <h3 class="pricing-card-title">Curso Básico</h3>
+                        <div class="pricing-card-price">
+                            <span class="price">R$60</span>
+                            <span class="period">pagamento único</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-card-features">
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Aprenda compartilhamento de tela do zero ao básico</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Acesso às aulas gravadas</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Técnicas básicas de solução de problemas</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Suporte da comunidade</span>
+                        </li>
+                    </ul>
+                    <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="btn btn-primary btn-full">Discord</a>
+                </div>
+
+                <!-- Advanced Plan -->
+                <div class="pricing-card pricing-card-featured animate-on-scroll" data-delay="150">
+                    <div class="pricing-card-badge">POPULAR</div>
+                    <div class="pricing-card-header">
+                        <h3 class="pricing-card-title">Curso Avançado</h3>
+                        <div class="pricing-card-price">
+                            <span class="price">R$180</span>
+                            <span class="period">pagamento único</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-card-features">
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Educação completa de compartilhamento de tela do zero ao avançado</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Acesso a mais de 250 canais de curso</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Todas as aulas gravadas incluídas</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Métodos avançados de solução de problemas</span>
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Suporte prioritário e mentoria</span>
+                        </li>
+                    </ul>
+                    <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="btn btn-primary btn-full">Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Pronto para Começar?</h2>
+                <p class="cta-description">Junte-se aos nossos cursos hoje e torne-se um especialista em compartilhamento de tela</p>
+                <div class="cta-actions">
+                    <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="btn btn-light">
+                        Entrar no Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="logo">
+                        <span class="logo-text">Lunatic</span>
+                        <span class="logo-highlight">ScreenShare</span>
+                    </div>
+                    <p class="footer-description">
+                        Cursos profissionais de compartilhamento de tela para todos os níveis de habilidade.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="social-link" aria-label="Discord">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 8.4c-.5-.2-1-.4-1.6-.5.1-.1.1-.3.1-.4.1-.3.2-.6.2-.9 0-.2-.1-.4-.2-.5-.1-.1-.3-.2-.5-.2-.3 0-.5.1-.7.3-.3-.1-.5-.1-.8-.1-.3 0-.5 0-.8.1-.2-.2-.4-.3-.7-.3-.2 0-.4.1-.5.2-.1.1-.2.3-.2.5 0 .3.1.6.2.9 0 .1.1.3.1.4-.5.1-1.1.3-1.6.5-1.8.8-2.9 2.2-2.9 3.6v1c0 2.3 2.8 4.1 6.3 4.1s6.3-1.8 6.3-4.1v-1c0-1.4-1.1-2.8-2.9-3.6zm-3 7.6c-.7 0-1.4-.1-2-.4-.6-.2-1.1-.6-1.6-1-.1-.1-.2-.2-.2-.4s.1-.3.2-.4c.1-.1.2-.1.4-.1.1 0 .3.1.4.2.3.3.7.6 1.2.8.5.2 1 .3 1.6.3.6 0 1.1-.1 1.6-.3.5-.2.9-.5 1.2-.8.1-.1.2-.2.4-.2.1 0 .3 0 .4.1.1.1.2.2.2.4s-.1.3-.2.4c-.4.4-1 .8-1.6 1-.6.3-1.3.4-2 .4z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://discord.gg/UaqRtttz6J" target="_blank" class="social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-nav">
+                        <li><a href="#sobre" class="footer-link">Sobre</a></li>
+                        <li><a href="#recursos" class="footer-link">Recursos</a></li>
+                        <li><a href="#depoimentos" class="footer-link">Depoimentos</a></li>
+                        <li><a href="#faq" class="footer-link">FAQ</a></li>
+                        <li><a href="#precos" class="footer-link">Preços</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Cursos</h3>
+                    <ul class="footer-nav">
+                        <li><a href="#precos" class="footer-link">Curso Básico</a></li>
+                        <li><a href="#precos" class="footer-link">Curso Avançado</a></li>
+                        <li><a href="#" class="footer-link">Cronograma de Cursos</a></li>
+                        <li><a href="#" class="footer-link">Instrutores</a></li>
+                        <li><a href="#" class="footer-link">Recursos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-nav">
+                        <li><a href="#" class="footer-link">Termos de Serviço</a></li>
+                        <li><a href="#" class="footer-link">Política de Privacidade</a></li>
+                        <li><a href="#" class="footer-link">Política de Reembolso</a></li>
+                        <li><a href="#" class="footer-link">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© <span id="currentYear"></span> Lunatic ScreenShare. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <div class="toast-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+            </div>
+            <div class="toast-message">
+                <div class="toast-title">Mensagem enviada!</div>
+                <div class="toast-description">Entraremos em contato o mais breve possível.</div>
+            </div>
+            <button class="toast-close" aria-label="Fechar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="toast-progress"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
